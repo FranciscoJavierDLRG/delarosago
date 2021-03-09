@@ -33,24 +33,13 @@ h1{
     #cont1.contenedor{
         height: 10%;
         width: 100%;
-        border: 1px solid gray;
-        background-color: yellow;
+        border: 1px solid green;
+        background-color: greenyellow;
         float: none;
     }
     .caja{
         width: calc(100% / 4);
         height: 100%;
-    }
-    #caja1{
-        float:left;
-    }
-    #caja2{
-        float:left;
-    }
-    #caja3{
-        float:left;
-    }
-    #caja4{
         float:left;
     }
     #cont2.contenedor{
@@ -67,8 +56,8 @@ h1{
     #cont1.contenedor{
         height: 40%;
         width: 100%;
-        border: 1px solid gray;
-        background-color: yellow;
+        border: 1px solid green;
+        background-color: greenyellow;
         float: none;
     }
     #cont2.contenedor{
@@ -83,18 +72,8 @@ h1{
     .caja{
         width: 100%;
         height: calc(100%/4);
-    }
-    #caja1{
         float:none;
-    }
-    #caja2{
-        float:none;
-    }
-    #caja3{
-        float:none;
-    }
-    #caja4{
-        float:none;
+        text-align: center;
     }
     h1{
         transform: translateY(180px);
