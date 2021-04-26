@@ -1,0 +1,32 @@
+body{
+    background-image:url(fondo.png) ;
+    font-family: tahoma;
+}
+h1{
+    text-align: center;
+}
+#Login_desplegable{
+    text-align: center;
+    margin-left: 550;
+    cursor:pointer;
+    width: 200px;
+    background: green;
+    color:black;
+    padding: 10px;
+    border-bottom: 2px solid green;
+}
+#login{
+    margin-left: 550;
+    width: 200px;
+    height: 140px;
+    background: orange;
+    border-radius: 2px;
+    padding: 10px;
+    color: black;
+}
+#Enviar{
+    border: none;
+    border-radius: 5px;
+    margin:15px 100px;
+    width: 70px;
+}
