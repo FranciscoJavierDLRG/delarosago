@@ -1,13 +1,11 @@
-create database tarea1;
-use tarea1;
-create table usuario (
-    idUsuario int not null IDENTITY(1,1),
-    nombre varchar (15) not null,
-    apPaterno varchar (15) not null,
-    apMaterno varchar (15) not null,
-    log_in varchar (8) not null,
-    pass_word varchar (4) not null,
-    primary key (idUsuario)
+create database F18100165;
+use F18100165;
+create table usuarios (
+    ncontrol varchar (8) primary key not null,
+    usuario varchar (50) not null,
+    telefono varchar(10) not null,
+    correo varchar(50) not null,
+    carrera varchar(50) not null,
+    contraseña varchar (10) not null,
 );
-insert into usuario (nombre,apPaterno,apMaterno,log_in,pass_word)
-values ('Francisco','De la Rosa','Gómez','18100165','0165');
+insert into usuario values ('18100165','Francisco','8671612074','l18100165@nlaredo.tecnm.mx','ISC','De la Rosa');
