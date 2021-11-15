@@ -1,0 +1,23 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="Conversor.css">
+    <title>Conversor Fahrenheit a Centigrados</title>
+    <script src="https://code.jquery.com/jquery-3.6.0/jquery.min.js"></script>
+    <script src="Conversor.js"></script>
+</head>
+
+<body>
+    <h1>Convertir grados</h1>
+    <form id="idform" method="get" action="Conversor.php">
+        <label for="num">Ingrese fahrenheit:</label>
+        <input type="text" id="num" name="num" size="10"/>
+
+        <input type="button" id="botonAjax" value="Convertir" />
+    </form>
+    <h2>Resultado...</h2>
+    <div id='resultado'></div>
+</body>
+
+</html>
