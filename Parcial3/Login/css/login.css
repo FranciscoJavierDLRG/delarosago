@@ -1,0 +1,23 @@
+body{
+    background-color: greenyellow;
+}
+form{
+    background-color:green;
+    width:300px;
+    padding: 10px 40px;
+    margin: 10% auto;
+    position: relative; 
+}
+h2{
+    text-align: center;
+}
+label{
+    font-size: 20px;
+}
+.btn{
+    margin:20px;
+}
+a.btn {
+    border-color: blueviolet;
+    background-color:lightblue;
+}
