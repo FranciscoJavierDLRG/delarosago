@@ -15,9 +15,15 @@ label{
     font-size: 20px;
 }
 .btn{
-    margin:20px;
+    margin-top: 10px;
 }
-a.btn {
-    border-color: blueviolet;
-    background-color:lightblue;
+
+.campos input[type="text"] {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.campos input[type="password"] {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
 }

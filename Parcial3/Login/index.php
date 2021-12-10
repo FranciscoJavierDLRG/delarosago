@@ -1,4 +1,4 @@
-<html>
+<!doctype html>
 <?php
 session_start();
 if ( !isset($_SESSION['login']) || empty($_SESSION['login']) ) {
@@ -11,22 +11,37 @@ if ( !isset($_SESSION['login']) || empty($_SESSION['login']) ) {
     <title>Login</title>
 
     <script src="/recursos/jquery-3.6.0.min.js"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./recursos/bootstrap.min.css">
+    <!-- <script src="./recursos/bootstrap.min.js"></script> -->
+    <link rel='stylesheet' href='./css/ModalHeaderColor.css'/>
     <script src="./js/index.js"></script>
     <link rel="stylesheet" href="estilos.css">
 
 </head>
 
 <body>
-
-
-
     <header>
         <div>
             <h1>Formulario de registro (beca Tamaulipas)</h1>
         </div>
     </header>
+    <div class="modal fade" id="modalSalida" role="dialog">
+        <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header modal-header-primary">
+                <button type="button" class="close" data-dismiss="modal">X</button>
+                <h2 class="modal-title text-center">Confirmación</h2>
+            </div>
+            <div class="modal-body text-center">
+                <h3>Desea salir del Sistema?</h3>
+            </div>
+            <div class="modal-footer">
+               <a href="./php/logout.php" class="btn btn-default">Si</a>
+               <a href="#" data-dismiss="modal" class="btn btn-default">No</a>
+            </div>
+        </div>
+        </div>
+    </div>
     <div class="container">
         <div class="row">
             <div class="col-sm-12 col-md-6 col-lg-4 nombre">

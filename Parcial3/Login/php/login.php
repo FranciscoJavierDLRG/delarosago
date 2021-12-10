@@ -1,7 +1,7 @@
 <?php
 
-$vLogin   = $_GET['parLog'];
-$vPassword= $_GET['parPas'];
+$vLogin   = $_GET['parUsuario'];
+$vPassword= $_GET['parPass'];
 
 session_start();
 $_SESSION['login']=$vLogin;
