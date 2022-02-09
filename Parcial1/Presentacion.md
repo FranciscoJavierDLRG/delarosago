@@ -12,4 +12,4 @@ Algunos hobbies que mantengo hoy en día son:
 - Analizar videojuegos pixelart mediante ingeniería inversa
 - Ver vídeos de youtube
 ### Dominio de idiomas
-![](/www/delarosago/Parcial1/mexico.png)
+![](/Parcial1/mexico.png)
