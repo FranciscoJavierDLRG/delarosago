@@ -7,15 +7,18 @@ Curso las materias de:
 - Taller de investigación II
 - Lenguajes y autómatas
 - Programación web
+  
 ###  Hoobies
 Algunos hobbies que mantengo hoy en día son:
 - Aprender mediante cursos en línea veterinaria
 - Analizar videojuegos pixelart mediante ingeniería inversa
 - Ver vídeos de youtube
+  
 ### Dominio de idiomas
 1. Español - Idioma natal ![](/Parcial1/assets/mexico.png)
 2. Inglés - C1 ![](/Parcial1/assets/usa.png)
 3. Japonés - N5 ![](/Parcial1/assets/japon.png)
+   
 ## Historial academico
 |Semestre|Materias tomadas|Creditos posibles|Acreditados|
 |-|-|-|-|
@@ -30,9 +33,9 @@ Algunos hobbies que mantengo hoy en día son:
 
 ### Redes personales
 
-[Facebook](https://www.facebook.com/franciscojavier.delarosagomez.9/)
-[Github](https://github.com/FranciscoJavierDLRG/)
-<a href="mailto:pancho221299@gmail.com">Correo personal</a>
-<a href="mailto:l18100165@nlaredo.tecnm.mx">Correo academico</a>
-[Discord](https://discord.gg/MZjtKYMr)
+[Facebook](https://www.facebook.com/franciscojavier.delarosagomez.9/) ![](/Parcial1/assets/facebook.png)
+[Github](https://github.com/FranciscoJavierDLRG/) ![](/Parcial1/assets/github.png)
+<a href="mailto:pancho221299@gmail.com">Correo personal</a> ![](/Parcial1/assets/gmail.png)
+<a href="mailto:l18100165@nlaredo.tecnm.mx">Correo academico</a> ![](/Parcial1/assets/outlook.png)
+[Discord](https://discord.gg/MZjtKYMr) ![](/Parcial1/assets/discord.png)
 
