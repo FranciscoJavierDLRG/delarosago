@@ -8,17 +8,6 @@ Curso las materias de:
 - Lenguajes y autómatas
 - Programación web
   
-###  Hoobies
-Algunos hobbies que mantengo hoy en día son:
-- Aprender mediante cursos en línea veterinaria
-- Analizar videojuegos pixelart mediante ingeniería inversa
-- Ver vídeos de youtube
-  
-### Dominio de idiomas
-1. Español - Idioma natal ![](/Parcial1/assets/mexico.png)
-2. Inglés - C1 ![](/Parcial1/assets/usa.png)
-3. Japonés - N5 ![](/Parcial1/assets/japon.png)
-   
 ## Historial academico
 |Semestre|Materias tomadas|Creditos posibles|Acreditados|
 |-|-|-|-|
@@ -30,6 +19,18 @@ Algunos hobbies que mantengo hoy en día son:
 |6|5|18|13
 |7|4|20|15
 ||Aprobadas = 35 |Total= 186|Total= 161
+  
+###  Hoobies
+Algunos hobbies que mantengo hoy en día son:
+- Aprender mediante cursos en línea veterinaria
+- Analizar videojuegos pixelart mediante ingeniería inversa
+- Ver vídeos de youtube
+  
+### Dominio de idiomas
+1. Español - Idioma natal ![](/Parcial1/assets/mexico.png)
+2. Inglés - C1 ![](/Parcial1/assets/usa.png)
+3. Japonés - N5 ![](/Parcial1/assets/japon.png)
+
 
 ### Redes personales
 
