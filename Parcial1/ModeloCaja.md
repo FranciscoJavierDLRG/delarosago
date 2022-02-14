@@ -19,5 +19,5 @@ Las partes que componen cada caja y su orden de visualización desde el punto de
 ![](https://uniwebsidad.com/static/libros/imagenes/css/f0403.gif)
 
 ### Fuentes
-[El modelo de caja](https://developer.mozilla.org/es/docs/Learn/CSS/Building_blocks/The_box_model)
+[El modelo de caja](https://developer.mozilla.org/es/docs/Learn/CSS/Building_blocks/The_box_model) <br>
 [Modelo de cajas](https://uniwebsidad.com/libros/css/capitulo-4#:~:text=El%20modelo%20de%20cajas%20o,se%20representen%20mediante%20cajas%20rectangulares.)
