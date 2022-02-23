@@ -36,7 +36,6 @@ ul > li:hover > ul{
 }
 .semestre {
     background: lightgreen;
-    color: white;
 }
 .materia {
     background: lime;
