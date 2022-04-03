@@ -1,0 +1,47 @@
+<doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-Up-Compatible" content="IE-edge">
+        <meta name="viewport" content="width-device-width, initial-scale-1.8">
+        <title>Grid
+        </title>
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+    <body>
+        <div id="cont" class="contenedor">
+            <div class="caja" id="c1">Caja 1</div>
+            <div class="caja" id="c2">Caja 2</div>
+            <div class="caja" id="c3">Caja 3</div>
+            <div class="caja" id="c4">Caja 4</div>
+            <div class="caja" id="c5">Caja 5</div>
+            <div class="caja" id="c6">Caja 6</div>
+            <div class="caja" id="c7">Caja 7</div>
+            <div class="caja" id="c8">Caja 8</div>
+        </div>
+        <script>
+            window.onload = function() {
+                document.getElementById("cont").addEventListener("click",function(evento){
+                    //console.log("se modificó el color de " + evento.target.id);
+                    if (document.getElementById(evento.target.id).classList.contains("caja")){
+                    document.getElementById(evento.target.id).classList.toggle("cajaroja");
+                    console.log("se modificó el color de " + evento.target.id);
+                    }
+                });
+
+                //var elem = document.getElementById("cont")
+                //elem.addEventListener("click",function(evento){
+                  //  console.log("se modificó el color de " + evento.target.id);
+                    //document.getElementById(evento.target.id).classList.toggle("cajaroja");
+                //});
+
+                //var elem = document.getElementById("cont")
+                //elem.addEventListener("click",cambiarcaja);
+                //function cambiarcaja(evento){
+                    //console.log("se modificó el color de " + evento.target.id);
+                  //  document.getElementById(evento.target.id).classList.toggle("cajaroja");
+                //}
+            }
+        </script>
+    </body>
+</html>

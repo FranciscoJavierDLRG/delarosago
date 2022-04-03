@@ -1,0 +1,47 @@
+<doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-Up-Compatible" content="IE-edge">
+        <meta name="viewport" content="width-device-width, initial-scale-1.8">
+        <title>>Grid</title>
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+    <body>
+        <div id="cont" class="contenedor">
+            <div class="caja" id="c1">Caja 1</div>
+            <div class="caja" id="c2">Caja 2</div>
+            <div class="caja" id="c3">Caja 3</div>
+            <div class="caja" id="c4">Caja 4</div>
+            <div class="caja" id="c5">Caja 5</div>
+            <div class="caja" id="c6">Caja 6</div>
+            <div class="caja" id="c7">Caja 7</div>
+            <div class="caja" id="c8">Caja 8</div>
+            <div class="caja" id="c9">Caja 9</div>
+            <button class="cajaBoton" id="c10" type="button">Caja 10</button>
+            <button class="cajaBoton" id="c11" type="button">Caja 11</button>
+            <button class="cajaBoton" id="c12" type="button">Caja 12</button>
+        </div>
+        <script>
+            window.onload = function() {
+                let i = 1
+                document.getElementById("cont").addEventListener("click",function(evento){
+                    
+                    //console.log("se modificó el color de " + evento.target.id);
+                    if (document.getElementById(evento.target.id).classList.contains("caja")){
+                        if(i = 1){
+                        document.getElementById(evento.target.id).classList.toggle("cruz");
+                        console.log("se modificó el color de " + evento.target.id);
+                        i--;
+                        }
+                        if(i = 0){
+                        document.getElementById(evento.target.id).classList.toggle("circulo");
+                        console.log("se modificó el color de " + evento.target.id);
+                        i++;
+                        }
+                    }
+                });
+            }
+        </script>
+    </body>
+</html>
