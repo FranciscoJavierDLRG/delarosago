@@ -16,52 +16,26 @@
     width: 100%;
     font-size:2em;
 }
-.opc1, .opc2, .opc2, .opc4{
-    border: 1px solid black;
-    margin:0px;
-    width: 100%;
-    font-size:2em;
-}
+
 #cont2.contenedor{
     height: 100%;
     width: 80%;
     border: 1px solid blue;
     background-color:aquamarine;
-    float: left;
-    text-align: center;
+    float: right;
+    /*text-align: center;*/
     font-size: 2em;
 }
-img{
-    transform: translateY(25px);
-    /*visibility: hidden;*/
+#btn{
+    position:initial;
+}
+
+.MenuEscondido{
     display: none;
-    align-items: center;
 }
-#img1:target{
-    display:block;
-    width: calc(90%);
-    height: calc(90%);
-}
-#img2:target{
-    display:block;
-    width: calc(90%);
-    height: calc(90%);
-}
-#img3:target{
-    display:block;
-    width: calc(90%);
-    height: calc(90%);
-}
-#img4:target{
-    display:block;
-    width: calc(90%);
-    height: calc(90%);
-}
-#opcion1:target,
-#opcion2:target,
-#opcion3:target,
-#opcion4:target{
-    display: block;
+.ContenidoMargenCero{
+    min-height: 100%;
+    min-width: 100%;
 }
 
 @media screen and (min-width:501px) and (max-width:750px){
@@ -82,17 +56,10 @@ img{
         width: 100%;
         border: 1px solid blue;
         background-color:aquamarine;
-        float: left;
+        float:none;
         text-align: center;
         font-size: 2em;
     }
-    /*#img1, 
-    #img2,
-    #img3,
-    #img4{
-        width: 256px;
-        height: 256px;
-    }*/
 }
 @media screen and (max-width:500px){
     #cont1.contenedor{
@@ -107,7 +74,7 @@ img{
         width: 100%;
         border: 1px solid blue;
         background-color:aquamarine;
-        float: left;
+        float: none;
         text-align: center;
         font-size: 2em;
     }
@@ -117,14 +84,4 @@ img{
         float:none;
         text-align: center;
     }
-    /*h1{
-        transform: translateY(180px);
-    }
-    #img1, 
-    #img2,
-    #img3,
-    #img4{
-        width: 128px;
-        height: 128px;
-    }*/
 }

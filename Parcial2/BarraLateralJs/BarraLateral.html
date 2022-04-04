@@ -6,33 +6,24 @@
     </head>
     <body>
         <div id="cont1" class="contenedor">
-            <!--div class="caja"><A id="op1" href="#img1">Brontosaurio</A></div>
-            <div class="caja"><A id="op2" href="#img2">Estegosaurio</A></div>
-            <div class="caja"><A id="op3" href="#img3">Triceratops</A></div>
-            <div class="caja"><A id="op4" href="#img4">Setasaurio</A></div-->
-            <a id="opc1" href="#opcion1">Opcion 1</a>
-            <a id="opc2" href="#opcion2">Opcion 2</a>
-            <a id="opc3" href="#opcion3">Opcion 3</a>
-            <a id="opc4" href="#opcion4">Opcion 4</a>
+            <div class="caja" href="#opcion1">Opcion 1</div>
+            <div class="caja" href="#opcion2">Opcion 2</div>
+            <div class="caja" href="#opcion3">Opcion 3</div>
+            <div class="caja" href="#opcion4">Opcion 4</div>
         </div>
         <div id="cont2" class="contenedor">
-            <!--<h1>Contenido <br> Desktop</h1>-->
-            <!--img  id=img1 src="dinosaurio.png">
-            <img  id=img2 src="estegosaurio.png">
-            <img  id=img3 src="triceratops.png">
-            <img  id=img4 src="setasaurio.png"-->
             <button id="btn" type="button">Menú</button>
-            <div id="opcion1" class="contenidoopcion">Opción 1</div>
-            <div id="opcion2" class="contenidoopcion">Opción 2</div>
-            <div id="opcion3" class="contenidoopcion">Opción 3</div>
-            <div id="opcion4" class="contenidoopcion">Opción 4</div>
+            <div id="opcion1" class="contenidoopcion"></div>
+            <div id="opcion2" class="contenidoopcion"></div>
+            <div id="opcion3" class="contenidoopcion"></div>
+            <div id="opcion4" class="contenidoopcion"></div>
         </div>
         <script>
             document.getElementById("btn").addEventListener("click", alternarmenu);
 
             function alternarmenu() {
                 document.getElementById("cont1").classList.toggle("MenuEscondido");
-                document,getElementById("cont2").classList.toggle("ContenidoMargenCero");
+                document.getElementById("cont2").classList.toggle("ContenidoMargenCero");
             }
         </script>
     </body>
