@@ -17,8 +17,7 @@ $(document).ready(function(){
         solicitud.send(); 
     })
     $('#botonRegreso').click(function(){
-        function iniciarHeader() {
         document.getElementById("head").innerHTML = "<h1>Formulario de registro (beca Tamaulipas)</h1>"; 
     
-    })
+    });
 });
