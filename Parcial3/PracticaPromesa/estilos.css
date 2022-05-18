@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+    color: orange;
+}
+div{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+header{
+    background-color: green;
+}
+
+label{
+    color: white;
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Formulario</title>
+      <link rel="stylesheet" href="estilos.css">
+      <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+            integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+      <!--script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script-->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+            crossorigin="anonymous"></script>
+      
+      <script src="Promesa.js"></script>
+</head>
+
+<body>
+      <header>
+            <div>
+                  <h1 id="head">Formulario de registro (beca Tamaulipas)</h1>
+            </div>
+      </header>
+      <div class="container">
+            <div class="row">
+                  <div class="col-sm-12 col-md-6 col-lg-4 nombre">
+                        <Label for="nombres">Nombre(s)</Label>
+                        <input id="idCliente" type="text" class="form-control" placeholder="Ej: Francisco Javier" />
+                  </div>
+                  <div class="col-sm-12 col-md-6 col-lg-4 apellido">
+                        <label for="apellidos">Apellidos</label>
+                        <input id="nomCliente" type="text" class="form-control" placeholder="Ej: De la Rosa Gómez" />
+                  </div>
+                  <div class="col-sm-12 col-md-12 col-lg-4 correo">
+                        <label for="correo">Correo electrónico</label>
+                        <input id="hora" type="email" class="form-control" placeholder="Ej: ejemplo@ejemplo.com" />
+                  </div>
+            </div>
+
+            <div class="row">
+                  <div class="col-sm-12 col-md-6 col-lg-8 nacimiento">
+                        <Label for="nacimiento">Día de nacimiento</Label>
+                        <input id="dirCliente" type="date" class="form-control">
+                  </div>
+                  <div class="col-sm-12 col-md-6 col-lg-4 genero">
+                        <label for="sexo">Genero:</label>
+                        <select id="pais" class="form-control" name="" id="option">
+                              <option value="1">Femenino</option>
+                              <option value="2">Masculino</option>
+                        </select>
+                  </div>
+            </div>
+
+            <div class="row">
+                  <div class="col-sm-12 col-md-6 col-lg-4 numcontrol">
+                        <Label for="control">N° de control </Label>
+                        <input id="telCliente" type="text" class="form-control" placeholder="18100165" />
+                  </div>
+                  <div class="col-sm-12 col-md-6 col-lg-4 correoinstitucional">
+                        <label for="institucional">Correo institucional</label>
+                        <input id="ciudad" type="text" class="form-control" placeholder="L18100165@nlaredo.tecnm.mx" />
+                  </div>
+                  <div class="col-sm-12 col-md-12 col-lg-4 numerotelefono">
+                        <label for="numero">Numero de telefono</label>
+                        <input id="estado" type="text" class="form-control" placeholder="8671612074" />
+                  </div>
+            </div>
+
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Modal">Guardar</button>
+            <button id="botonAlerta" type="button" class="btn btn-primary">Alerta</button>
+            <button id="botonAjax" type="button" class="btn btn-primary">Cambiar header</button>
+            <button id="botonRegreso" type="button" class="btn btn-primary">Regresar</button>
+            <button id="btnjson" type="button" class="btn btn-primary">Cargar datos</button>
+
+            <div class="modal fade" id="Modal" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                              <div class="modal-header">
+                                    <h5 class="modal-title" id="ModalLabel">Nuevo registro</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span>
+                                    </button>
+                              </div>
+                              <div class="modal-body ">
+                                    Completado
+                              </div>
+                              <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+
+            <div id="ventanaAlerta" class="alert alert-primary alert-dismissible collapse" role="alert">
+                  <strong>Favor de llenar los campos vacios!</strong>
+                  <button id="botonCerrarAlerta" type="button" class="close" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+            </div>
+      <div>
+</body>
+<html>
