@@ -8,8 +8,8 @@ $(document).ready(function(){
             $.post('./PHP/conectar.php',{par1:varid},function(data){
             refrescar(data);
         }, 'json');
-        })
     });
+    
     function refrescar(objeto){
         $('#nombre').val(objeto.nombre);
         $('#apellido').val(objeto.apellido);
@@ -20,4 +20,5 @@ $(document).ready(function(){
         $('#correoInstitucional').val(objeto.c_institucional);
         $('#numTelefono').val(objeto.num_telefono);
     }
+});
 });
