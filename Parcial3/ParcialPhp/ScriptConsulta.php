@@ -2,7 +2,7 @@
 include "conectar.php";
 
 try{
-    $query=$con->prepare("select * from usuario");
+    $query=$con->prepare("select id_usuario,nombre,apellido,correo from solicitud");
     $query->execute();
 
     while ($row = $query->fetch()){
