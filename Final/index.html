@@ -48,8 +48,8 @@
             <div class="col-sm-12 col-md-6 col-lg-4 genero">
                 <label for="sexo">Genero:</label>
                 <select id="genero" class="form-control" name="" id="option">
-                    <option value="1">Femenino</option>
-                    <option value="2">Masculino</option>
+                    <option value="Femenino">Femenino</option>
+                    <option value="Masculino">Masculino</option>
                 </select>
             </div>
         </div>
@@ -75,6 +75,10 @@
             <button id="botonRegreso" type="button" class="btn btn-primary">Regresar</button>
             <button id="btnjson" type="button" class="btn btn-primary">Cargar datos</button-->
         <button id="btnConsultar" type="button" class="btn btn-primary">Cargar datos</button>
+        <button id="btnEliminar" type="button" class="btn btn-primary">Eliminar</button>
+        <button id="btnNuevo" type="button" class="btn btn-primary">Nuevo</button>
+        <button id="btnModificar" type="button" class="btn btn-primary ">Modificar</button>
+
 
         <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
@@ -95,6 +99,44 @@
                 </div>
             </div>
         </div>
+        <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="ModalLabel">Eliminar</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body ">
+                        <Label for="control">N° de control </Label>
+                        <input id="idEliminar" type="text" class="form-control" placeholder="18100165" />
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="ModalLabel">Eliminar</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body ">
+                        <Label for="control">N° de control </Label>
+                        <input id="idNuevo" type="text" class="form-control" placeholder="18100165" />
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div-->
 
 
         <!--div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"

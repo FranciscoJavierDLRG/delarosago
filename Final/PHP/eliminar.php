@@ -15,14 +15,14 @@ try{
 }
 $con->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
 try{
-    $consultarSql = "select * from solicitud where id_usuario=".$paridCte;
+    $consultarSql = "delete from solicitud where id_usuario=".$paridCte;
     $consulta = $con -> prepare($consultarSql);
     $consulta -> execute();
     $resultado = $consulta->fetch(PDO::FETCH_ASSOC);
     $consulta->closeCursor();
     
 }   catch(PDOException $e) {
-    echo "Error de consulta";
+    echo "Error al eliminar";
     echo $e->getMessage();
 }
 echo json_encode($resultado);
