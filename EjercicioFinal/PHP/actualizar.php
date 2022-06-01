@@ -33,5 +33,4 @@ try{
     echo $e->getMessage();
 }
 echo json_encode($resultado);
-mysql_close($con);
 ?>
