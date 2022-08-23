@@ -60,6 +60,14 @@ $('#btnModificar').click(function(){
         $('#correoInstitucional').val(objeto.c_institucional);
         $('#numTelefono').val(objeto.num_telefono);
     }
-
-
+    function borrar(objeto){
+        $('#nombre')=' ';
+        $('#apellido')=' ';
+        $('#correo')=' ';
+        $('#fecNacimiento').val(objeto.fecha);
+        $('#genero').val(objeto.genero);
+        $('#numControl').val(objeto.id_usuario);
+        $('#correoInstitucional').val(objeto.c_institucional);
+        $('#numTelefono').val(objeto.num_telefono);
+    }
 });
